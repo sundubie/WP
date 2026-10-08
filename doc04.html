@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style type="text/css">
+      ol li {
+        list-style-type: upper-alpha;
+      }
+      ol {
+        list-style-position: inside;
+      }
+      ul li.kor {
+        ist-style-type: square;
+      }
+      ul li.jap {
+        list-style-image: url();
+      }
+      #book {
+        width: 90%;
+        border-spacing: 8px;
+      }
+      p {
+        background-color: magenta;
+      }
+      ul {
+        background-color: pink;
+      }
+      ol {
+        background-color: violet;
+      }
+      td {
+        background-color: plum;
+      }
+    </style>
+  </head>
+  <body>
+    <ol>
+      <table border="1" id="book">
+        <caption>
+          과목별 추천도서
+        </caption>
+        <tr>
+          <th>과목</th>
+          <th>책제목</th>
+          <th>저자</th>
+          <th>출판사</th>
+        </tr>
+        <tr>
+          <td rowspan="2">웹프로그래밍</td>
+          <td>HTML5</td>
+          <td>임순범</td>
+          <td>생능</td>
+        </tr>
+        <tr>
+          <td>소셜미디어</td>
+          <td>최윤철</td>
+          <td>생능</td>
+        </tr>
+        <tr>
+          <th>합계</th>
+          <td colspan="3">2권</td>
+        </tr>
+      </table>
+    </ol>
+  </body>
+  <body>
+    <p>순서가 있는 목록</p>
+    <ul>
+      <li class="usa">첫 번째</li>
+      <li class="kor">두 번째</li>
+      <li class="jap">세 번째</li>
+    </ul>
+    <p>순서가 없는 목록</p>
+    <ol>
+      <li>첫 번째</li>
+      <li>두 번째</li>
+      <li>세 번째</li>
+    </ol>
+  </body>
+</html>
