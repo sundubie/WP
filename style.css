@@ -168,3 +168,18 @@ footer {
     font-size: 16px;
   }
 }
+.weekly-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.weekly-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.week {
+  min-width: 0;
+}
