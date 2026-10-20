@@ -79,14 +79,14 @@ th {
 }
 
 /* 증빙 자료 링크 */
-.evidence-link {
+.photo {
   display: inline-block;
   margin-left: 6px;
   text-decoration: none;
   transition: transform 0.2s ease;
 }
 
-.evidence-link:hover {
+.photo:hover {
   transform: translateY(-3px);
 }
 
