@@ -1,0 +1,7 @@
+# Obsidian 개인 설정은 저장소에 올리지 않음 (노트는 올라감)
+obsidian/web/.obsidian/
+
+# 운영체제가 만드는 파일
+Thumbs.db
+desktop.ini
+.DS_Store
